@@ -4,9 +4,31 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:מסך_טכנאי"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        mc:Ignorable="d"       
+        Title="תפעול טכנאי צי&quot;ד" Height="535" Width="230" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        TextBlock.TextAlignment="Center">
+    <StackPanel>
+        <Border Height="47" VerticalAlignment="Top">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="#FF9CA91A" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Label Content="צי&quot;ד" Margin="10,0,0,0" VerticalContentAlignment="Center" FontSize="30" FontFamily="Microsoft Tai Le" FontWeight="Bold">
+                <Label.Effect>
+                    <BlurEffect Radius="1" KernelType="Box"/>
+                </Label.Effect>
+            </Label>
+
+        </Border>
+        <Button Content="אשף הגדרות אתר" Height="45" VerticalAlignment="Top" Margin="10,10,10,0" FontSize="14" FontFamily="Microsoft Tai Le" BorderBrush="#FFA4A4A4"/>
+        <Button Content="ניהול אלעד-ירוק" Height="45" VerticalAlignment="Top" Margin="10,10,10,0" FontSize="14" FontFamily="Microsoft Tai Le" BorderBrush="#FFA4A4A4"/>
+        <Button Content="ניהול חכ&quot;ס צי&quot;ד" Height="45" VerticalAlignment="Top" Margin="10,10,10,0" FontSize="14" FontFamily="Microsoft Tai Le" BorderBrush="#FFA4A4A4"/>
+        <Button Content="עדכון תוכנה ותוכן" Height="45" VerticalAlignment="Top" Margin="10,10,10,0" FontSize="14" FontFamily="Microsoft Tai Le" BorderBrush="#FFA4A4A4"/>
+        <Button Content="עצירת יישומים" Height="45" VerticalAlignment="Top" Margin="10,10,10,0" FontSize="14" FontFamily="Microsoft Tai Le" BorderBrush="#FFA4A4A4"/>
+        <Button Content="אתחול מחשוב" Height="45" VerticalAlignment="Top" Margin="10,10,10,0" FontSize="14" FontFamily="Microsoft Tai Le" BorderBrush="#FFA4A4A4"/>
+        <Button Content="מקלדת וירטואלית" Height="45" VerticalAlignment="Top" Margin="10,10,10,0" FontSize="14" FontFamily="Microsoft Tai Le" BorderBrush="#FFA4A4A4"/>
+        <Button Content="טכנאי בכיר" Height="45" VerticalAlignment="Top" Margin="10,10,10,10" FontSize="14" FontFamily="Microsoft Tai Le" BorderBrush="#FFA4A4A4"/>
+    </StackPanel>
 </Window>
